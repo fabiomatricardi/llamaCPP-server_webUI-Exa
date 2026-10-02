@@ -8,6 +8,7 @@ A local AI, with built in free Web-search and web-fetch.
 
 ---
 
+<img src="https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/raw/main/screenshots/Screenshot%202026-10-02%20114024.png" width=800>
 
 ## llama.cpp Web UI with Exa search and fetch
 
@@ -54,3 +55,7 @@ For detailed setup instructions, see:
 - Sampling: temperature `0.1`, top-k `50`, repeat penalty `1.05`
 
 Edit the `start` command in `start-llama.bat` if you want to change these options.
+
+---
+
+<img src="https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/raw/main/screenshots/Screenshot%202026-10-02%20114055.png" width=800>
