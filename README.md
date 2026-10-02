@@ -6,6 +6,34 @@ A local AI, with built in free Web-search and web-fetch.
 - [BROWSER ONLY](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/blob/main/BROWSER_GUIDE.md)
 - [LLAMASERVER_MCP](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/blob/main/LLAMASERVER_MCP_GUIDE.md)
 
+
+## llama.cpp command used for the testing
+Windows
+
+```bash
+.\llama-server.exe -m .\models\LFM2.5-1.2B-Thinking-Q8_0.gguf \
+--port 11434 -c 16384 \
+--alias lfm2.5-1.2b \
+-np 1 \
+-ctk q4_0 \
+-ctv q4_0 \
+--jinja \
+-lm mmap \
+-ngl 99 \
+-t 3 \
+--reasoning-effort low \
+-fa on \
+-b 2048 \
+-ub 2048 \
+--ui-mcp-proxy
+```
+
+in one liner
+
+```bash
+.\llama-server.exe -m .\models\LFM2.5-1.2B-Thinking-Q8_0.gguf --port 11434 -c 16384 --alias lfm2.5-1.2b -np 1 -ctk q4_0 -ctv q4_0 --jinja -lm mmap -ngl 99 -t 3 --reasoning-effort low -fa on -b 2048 -ub 2048 --ui-mcp-proxy
+```
+
 ---
 
 ## Objective
