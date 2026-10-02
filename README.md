@@ -3,8 +3,8 @@
 A local AI, with built in free Web-search and web-fetch.
 
 2 Options:
-- [BROWSER ONLY](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/raw/main/BROWSER_GUIDE.md)
-- [LLAMASERVER_MCP](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/raw/main/LLAMASERVER_MCP_GUIDE.md)
+- [BROWSER ONLY](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/blob/main/BROWSER_GUIDE.md)
+- [LLAMASERVER_MCP](https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/blob/main/LLAMASERVER_MCP_GUIDE.md)
 
 ---
 
