@@ -1,3 +1,5 @@
+<img src="https://github.com/fabiomatricardi/llamaCPP-server_webUI-Exa/blob/main/localwebserarch.gif" width=1000>
+
 # llama-server WebUI is all you needed
 
 A local AI, with built in free Web-search and web-fetch.
